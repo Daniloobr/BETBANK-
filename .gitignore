@@ -1,0 +1,47 @@
+# Dependências
+node_modules/
+
+# Build e artefatos regeneráveis
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.local
+.env.*
+!.env.example
+
+# Cache e metadados de deploy da Vercel
+.vercel/
+
+# Estado local do Supabase CLI
+supabase/.temp/
+supabase/.branches/
+
+# Logs de runtime e gerenciadores de pacotes
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos temporários e de depuração
+*.tmp
+*.temp
+.temp*
+temp_*
+*.bak
+*.orig
+*.rej
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações de IDEs e editores locais
+.vscode/
+.idea/
